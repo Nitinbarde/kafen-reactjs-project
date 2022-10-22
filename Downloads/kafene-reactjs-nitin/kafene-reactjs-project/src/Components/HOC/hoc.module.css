@@ -1,0 +1,15 @@
+.hocDiv{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 48px
+}
+.hocDiv p{
+    margin: 0;
+    font-size: 36px;
+    color: #00E091
+}

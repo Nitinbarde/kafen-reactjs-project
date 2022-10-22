@@ -1,0 +1,109 @@
+/* Main CSS Starts */
+main{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 65px;
+    padding: 0 8% 4%;
+}
+.heading{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.mainSectionWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.leftSectionWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+}
+.leftHeading{
+    display: block;
+    font-size: 1.3em;
+    margin: 0;
+}
+.leftPara{
+    font-size: 16px;
+}
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    /* background-color: coral; */
+}
+.inputCheckbox{
+
+}
+.rightSectionWrapper{
+    width: 100%;
+}
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-spacing: 0px 4px;
+}
+
+tbody{
+    background-color: #fff;
+}
+.firstRow{
+    background-color: #F6F7FB;
+}
+th{
+    padding: 14px;
+}
+td{
+    padding: 14px;
+}
+.lightGrey{
+    color: #908E8C
+}
+.secondDataCell{
+    width: 300px;
+}
+.userPage tr>td:nth-child(1){
+    width: 80px;
+    max-width: 50px;
+}
+.userPage tr>td:nth-child(2){
+    width: 150px;
+    max-width: 150px;
+}
+.userPage tr>td:nth-child(3){
+    width: 350px;
+    max-width: 320px;
+}
+.search{
+    box-sizing: border-box;
+    width: 600px;
+    padding: 18px 24px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin: 0 36px 0 0;
+    outline: none;
+    margin-bottom: 50px;
+}
+.reset{
+    border-radius: 30px;
+    padding: 18px 36px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input::placeholder{
+    font-size: 18px;
+    align-items: center;
+}
+/* Main CSS Ends */

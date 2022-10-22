@@ -1,0 +1,89 @@
+/* Main CSS Starts */
+main{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 65px;
+    padding: 0 8% 4%;
+}
+.heading{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.mainSectionWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.leftSectionWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+}
+.leftHeading{
+    display: block;
+    font-size: 1.3em;
+    margin: 0;
+}
+.leftPara{
+    font-size: 16px;
+}
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    /* background-color: coral; */
+}
+.inputCheckBox{
+    margin-right: 12px;
+}
+.rightSectionWrapper{
+    width: 88%;
+}
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-spacing: 0px 4px;
+}
+
+tbody{
+    background-color: #fff;
+}
+.firstRow{
+    background-color: #F6F7FB;
+}
+th{
+    padding: 14px;
+}
+td{
+    padding: 16px;
+    padding-right: 0px;
+    font-size: 14px;
+}
+.lightGrey{
+    color: #908E8C
+}
+.secondDataDell{
+    width: 300px;
+
+}
+.productTbody tr>td:nth-child(1){
+    width: 60px;
+}
+.productTbody tr>td:nth-child(2){
+    width: 380px;
+    cursor: pointer;
+}
+.productTbody tr>td:nth-child(3){
+    width: 300px;
+}
+.productTbody tr>td:nth-child(4){
+    width: 120px;
+}
+.productTbody tr>td:nth-child(5){
+    width: 70px;
+}
+/* Main CSS Ends */

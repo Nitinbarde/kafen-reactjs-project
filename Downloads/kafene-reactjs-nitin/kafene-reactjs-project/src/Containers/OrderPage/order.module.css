@@ -1,0 +1,89 @@
+main{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 65px;
+    padding: 0 8% 4%;
+}
+.heading{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.mainSectionWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.leftSectionWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+}
+.leftHeading{
+    display: block;
+    font-size: 1.3em;
+    margin: 0;
+}
+.leftPara{
+    font-size: 16px;
+}
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+}
+.inputCheckBox{
+    margin-right: 10px;
+}
+.rightSectionWrapper{
+    width: 88%;
+}
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-spacing: 0px 4px;
+}
+.timePara{
+    margin: 0;
+    font-size: 14px;
+}
+tbody{
+    background-color: #fff;
+}
+.firstRow{
+    background-color: #F6F7FB;
+}
+th{
+    padding: 14px;
+}
+td{
+    padding: 14px;
+}
+.lightGrey{
+    color: #908E8C
+}
+.secondDataCell{
+
+}
+tbody tr>td:nth-child(1){
+    width: 200px;
+    box-sizing: border-box;
+    padding-right: 80px;
+}
+tbody tr>td:nth-child(2){
+    width: 400px;
+    box-sizing: border-box;
+    padding-right: 150px;
+    cursor:pointer
+}
+tbody tr>td:nth-child(3){
+    width: fit-content
+}
+tr>td:nth-child(4){
+}
+tbody tr>td:nth-child(5){
+    width: 150px
+}

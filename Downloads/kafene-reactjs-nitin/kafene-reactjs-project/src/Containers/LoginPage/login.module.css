@@ -1,0 +1,62 @@
+main{
+    margin-top: 65px;
+}
+.mainWrapper{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 120px auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+    padding-top: 48px;
+}
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 250px;
+}
+.formTitle{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+.inputField{
+    width: 100%;
+    padding: 20px 0px 8px 0px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+.loginButton{
+    width: 100%;
+    border-radius: 30px;
+    padding: 18px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 48px;
+    text-transform: capitalize;
+}
+::placeholder{
+    color: #828482;
+}
+.signup{
+    float: right;
+    text-align: right;
+    cursor: pointer;
+    border-bottom: 0.1px solid #ccc;
+    padding: 10px 0px 8px 0px ;
+    margin-top: 20px;
+}

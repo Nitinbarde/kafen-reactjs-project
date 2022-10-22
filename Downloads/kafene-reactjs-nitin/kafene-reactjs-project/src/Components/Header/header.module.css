@@ -1,0 +1,68 @@
+/* Header CSS Starts */
+header{
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+.mainWrapper{   
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftWrapper{
+    display: flex;
+    align-items: center;
+}
+.logout{
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+.companyLogoWrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px
+}
+.websiteName{
+    font-size: 26px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.menuItemsWrapper{
+    display: flex;
+    align-items: center;
+}
+.menuItem{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+.highlight{
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+}
+/* Header CSS Ends */
+
